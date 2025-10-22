@@ -1,9 +1,13 @@
 CTF: Operation “Silent Signal” - Student Handout
+
 Goal: Find 3 flags in a small web lab and document your process professionally.
 Target & Setup
+
 Target: ctf.geekink.local (HTTP :8000) and debug service on :8080.
+
 Instructor will provide <SERVER_IP>. Map hosts with:
 sudo sh -c 'echo "<SERVER_IP> ctf.geekink.local dev.ctf.geekink.local" >> /etc/hosts'
+
 What to do (high level)
 1) Recon: use ping, dig/nslookup, nmap (light scans) to discover services.
 2) Explore site and robots.txt (request as dev subdomain).

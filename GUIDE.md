@@ -42,11 +42,12 @@ Rules: Passive + light active recon only. No destructive tests. Document and rep
 #### Quick commands:
 ```
 ping -c4 ctf.geekink.local
+
 dig ctf.geekink.local ANY +noall +answer
 
 curl -v -H "Host: dev.ctf.geekink.local" http://<SERVER_IP>:8000/robots.txt
 
 curl -I http://<SERVER_IP>:8080/
-````
 
 curl -v -X POST -d "username=admin&password=' OR '1'='1" http://<SERVER_IP>:8000/auth
+````
